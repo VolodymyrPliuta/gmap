@@ -37,7 +37,7 @@
       function drop() {
         clearMarkers();
         for (var i = 0; i < neighborhoods.length; i++) {
-          addMarkerWithTimeout(neighborhoods[i], i * 300);
+          addMarkerWithTimeout(neighborhoods[i], i * 500);
         }
       }
 
