@@ -6,7 +6,7 @@
         });
 
         // Create an array of alphabetical characters used to label the markers.
-        var labels = ['been','been','been','been','been','been','been','been','been','been','been','been','been','been','been','been','been','been','been','been','been','been','been','been','been','been','been','been'];
+        var labels = ['Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad'];
 
         // Add some markers to the map.
         // Note: The code uses the JavaScript Array.prototype.map() method to
