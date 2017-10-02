@@ -7,11 +7,12 @@
 
         // Create an array of alphabetical characters used to label the markers.
         var labels = ['Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad','Vlad'];
-
+        var image = 'http://www.google.com/mapfiles/dd-start.png';
         // Add some markers to the map.
         // Note: The code uses the JavaScript Array.prototype.map() method to
         // create an array of markers based on a given "locations" array.
         // The map() method here has nothing to do with the Google Maps API.
+
         var markers = locations.map(function(location, i) {
           return new google.maps.Marker({
             position: location,
@@ -19,12 +20,14 @@
           });
         });
 
+
         // Add a marker clusterer to manage the markers.
         var markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
       }
       var locations = [
         {lat: 30.274438, lng:  -81.388347},
+
         {lat: 28.546863, lng: -81.373917},
         {lat: 28.392157, lng: -80.596978},
         {lat: 25.774763, lng: -80.130467},
