@@ -1,0 +1,24 @@
+[18:16:37] Using gulpfile ~/Desktop/my_projects/gmap/gulpfile.js
+[18:16:37] Starting 'browser-sync'...
+[18:16:37] Finished 'browser-sync' after 5.74 ms
+[Browsersync] Access URLs:
+ -------------------------------------
+       Local: http://localhost:3002
+    External: http://192.168.1.24:3002
+ -------------------------------------
+          UI: http://localhost:3003
+ UI External: http://192.168.1.24:3003
+ -------------------------------------
+[Browsersync] Serving files from: ./
+[18:18:39] Using gulpfile ~/Desktop/my_projects/gmap/gulpfile.js
+[18:18:39] Starting 'browser-sync'...
+[18:18:39] Finished 'browser-sync' after 5.96 ms
+[Browsersync] Access URLs:
+ -------------------------------------
+       Local: http://localhost:3004
+    External: http://192.168.1.24:3004
+ -------------------------------------
+          UI: http://localhost:3005
+ UI External: http://192.168.1.24:3005
+ -------------------------------------
+[Browsersync] Serving files from: ./
